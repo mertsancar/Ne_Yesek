@@ -1,0 +1,132 @@
+WindowManager:
+    MainWindow:
+	SecondWindow:
+
+
+<MainWindow>:
+	name : "main"
+
+
+	
+	FloatLayout:
+		cols :1
+		
+		Label:
+			text: "NE YESEK?"
+			font_size: 50
+			color: (253/255, 165/255, 48/255, 1)
+			
+
+		Button:
+			pos_hint:{"x":0.2,"y":0.05}
+            size_hint: 0.6, 0.2
+            font_size: (root.width**2 + root.height**2) / 13**4
+			text: "Baþla!"
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+			
+			on_release:
+				app.root.current = "second"
+				root.manager.transition.direction = "left"
+				
+			
+
+<SecondWindow>:
+	name: "second"
+	
+	
+
+	FloatLayout:
+		cols:1
+
+		Label:
+			text: "Açlýk Seviyen: "
+			font_size: 50
+			color: (253/255, 165/255, 48/255, 1)
+
+
+
+		Button:
+			size_hint: 0.1, 0.15
+			font_size: (root.width**2 + root.height**2) / 13**4
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+
+			
+			id : "1"
+			text: "1"
+			pos_hint:{"x":0.05,"y":0.05}
+			
+			on_release:
+				root.rastgele(1)
+
+
+
+				
+		Button:
+			size_hint: 0.1, 0.15
+			font_size: (root.width**2 + root.height**2) / 13**4
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+			
+			id : "2"
+			text: "2"
+			pos_hint:{"x":0.25,"y":0.05}
+			
+			on_release:
+				root.rastgele(2)
+
+
+
+		Button:
+			size_hint: 0.1, 0.15
+			font_size: (root.width**2 + root.height**2) / 13**4
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+			
+			id : "3"
+			text: "3"
+			pos_hint:{"x":0.45,"y":0.05}
+			
+			on_release:
+				root.rastgele(3)
+
+
+
+		Button:
+			size_hint: 0.1, 0.15
+			font_size: (root.width**2 + root.height**2) / 13**4
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+			
+			id : "4"
+			text: "4"
+			pos_hint:{"x":0.65,"y":0.05}
+			
+			on_release:
+				root.rastgele(4)
+
+
+
+		Button:
+			size_hint: 0.1, 0.15
+			font_size: (root.width**2 + root.height**2) / 13**4
+			color: (253/255, 165/255, 48/255, 1)
+			background_color: (171/255, 0, 18/255,1)
+
+			
+			id : "5"
+			text: "5"
+			pos_hint:{"x":0.85,"y":0.05}
+			
+			on_release:
+				root.rastgele(5)
+
+
+
+		

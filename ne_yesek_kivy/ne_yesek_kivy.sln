@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ne_yesek_kivy", "ne_yesek_kivy\ne_yesek_kivy.pyproj", "{AC9BC3B2-FB6B-4E16-9059-AF57F2E595A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9BC3B2-FB6B-4E16-9059-AF57F2E595A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9BC3B2-FB6B-4E16-9059-AF57F2E595A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20BAFC13-26FA-40AD-8A8C-7E12ED28C5C1}
+	EndGlobalSection
+EndGlobal
