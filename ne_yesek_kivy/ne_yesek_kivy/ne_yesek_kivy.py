@@ -14,7 +14,7 @@ from kivy.graphics import *
 from kivy.graphics.instructions  import CanvasBase
 from kivy.event import ObjectWithUid
 
-#yemeksepeti sayfasına gitmek için şuan çalışmıyor
+#yemeksepeti sayfasına gitmek için
 import webbrowser
 
 #yemek veritabanı
